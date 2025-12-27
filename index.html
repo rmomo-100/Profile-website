@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ruth Afotey | Data & Analytics for Marketing Clarity</title>
+  <title>Ruth Afotey | Marketing Analytics & Revenue Clarity</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <style>
@@ -41,16 +41,6 @@
       text-align: center;
       padding: 120px 20px 100px;
       border-bottom: 1px solid var(--border);
-      position: relative;
-    }
-
-    header .brand {
-      position: absolute;
-      top: 24px;
-      left: 32px;
-      font-weight: 700;
-      color: var(--primary);
-      font-size: 1.05rem;
     }
 
     header h1 {
@@ -69,18 +59,25 @@
     .cta {
       margin-top: 32px;
       display: inline-block;
-      padding: 14px 34px;
+      padding: 16px 36px;
       background: var(--accent);
       color: #ffffff;
-      border-radius: 10px;
-      font-weight: 600;
-      box-shadow: 0 8px 20px rgba(56,189,248,0.25);
+      border-radius: 12px;
+      font-weight: 700;
+      box-shadow: 0 10px 25px rgba(56,189,248,0.25);
+      transition: transform 0.2s ease;
+    }
+
+    .cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(56,189,248,0.35);
     }
 
     section h2 {
       font-size: 2rem;
       margin-bottom: 24px;
       color: var(--primary);
+      text-align: center;
     }
 
     .grid {
@@ -95,6 +92,12 @@
       padding: 32px;
       border-radius: 16px;
       border: 1px solid var(--border);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
     }
 
     .card h3 {
@@ -115,23 +118,17 @@
 <body>
 
 <header>
-  <div style="position:absolute;top:20px;left:30px;font-weight:700;font-size:1.1rem;">
-    Ruth Afotey
-  </div>
   <h1>Marketing & Revenue Clarity</h1>
   <p>
-    I help business owners understand which ads drive revenue,
-    where money leaks, and what to scale next — without dashboard chaos.
+    Transform your marketing data into actionable insights. Discover which campaigns drive revenue, identify funnel leaks, and maximize ROI without guessing.
   </p>
-  <a class="cta" href="#contact">Get Marketing Clarity</a>
+  <a class="cta" href="#contact">Get Your Clarity Report</a>
 </header>
 
 <section class="container">
   <h2>About Me</h2>
   <p>
-    I’m a data and analytics consultant focused on turning complex marketing data into
-    clear, executive-level insights. I work with founders and leadership teams who are
-    tired of guessing which Facebook Ads, Google Ads, or campaigns are actually profitable.
+    I help business owners turn complex marketing data into clear, executive-ready insights. By connecting ad performance to revenue outcomes, I help you make confident decisions on scaling campaigns and plugging leaks.
   </p>
 </section>
 
@@ -139,14 +136,13 @@
   <h2>Executive Command Center (ECC)</h2>
   <div class="card">
     <p>
-      The Executive Command Center is a unified analytics system designed for leaders who
-      need clarity, not clutter.
+      The Executive Command Center is a comprehensive analytics platform that provides clarity across your marketing channels and revenue streams.
     </p>
     <ul>
-      <li>Unified view of marketing, revenue, and attribution</li>
-      <li>Multi-channel tracking (Facebook Ads, Google Ads, web analytics)</li>
-      <li>Funnel leak detection and performance diagnostics</li>
-      <li>Executive dashboards that answer “What should we do next?”</li>
+      <li>Unified view of Facebook Ads, Google Ads, and other channels</li>
+      <li>Revenue-based multi-touch attribution</li>
+      <li>Funnel leak detection and optimization guidance</li>
+      <li>Executive dashboards for actionable insights</li>
     </ul>
   </div>
 </section>
@@ -156,19 +152,13 @@
   <div class="grid">
     <div class="card">
       <h3>Customer Churn Analysis — Tableau</h3>
-      <p>
-        Interactive Tableau dashboard analyzing customer churn drivers and retention risks,
-        designed to support data-driven decision-making.
-      </p>
+      <p>Interactive Tableau dashboard analyzing churn drivers and retention strategies to improve business decisions.</p>
       <a href="https://public.tableau.com/app/profile/ruth.afotey/viz/D210PerformanceAssessment-Ruth/Story2" target="_blank">View Tableau Dashboard →</a>
     </div>
     <div class="card">
       <h3>Data Pipelines with Airflow</h3>
-      <p>
-        Automated data pipelines built with Apache Airflow to ensure reliable,
-        scalable analytics workflows for reporting and insights.
-      </p>
-      <a href="https://github.com/rmomo-100/demo-website" target="_blank">View on GitHub →</a>
+      <p>Automated, scalable data pipelines for reliable analytics workflows.</p>
+      <a href="https://github.com/rmomo-100/Data-Pipelines-with-Airflow" target="_blank">View on GitHub →</a>
     </div>
   </div>
 </section>
@@ -178,24 +168,15 @@
   <div class="grid">
     <div class="card">
       <h3>Why Most Businesses Misread Their Ad Performance</h3>
-      <p>
-        Learn why clicks and impressions don’t equal revenue — and how to measure
-        what actually matters for growth.
-      </p>
+      <p><a href="https://www.wordstream.com/blog/ws/2017/07/10/measure-facebook-ads">Read full article →</a></p>
     </div>
     <div class="card">
       <h3>How to Find Revenue Leaks in Your Marketing Funnel</h3>
-      <p>
-        A practical guide to identifying drop-offs, wasted spend, and optimization
-        opportunities across your funnel.
-      </p>
+      <p><a href="https://www.shopify.com/enterprise/funnel-analysis">Read full article →</a></p>
     </div>
     <div class="card">
       <h3>Attribution Models Explained for Business Owners</h3>
-      <p>
-        A clear, non-technical breakdown of attribution models and how they impact
-        marketing decisions and budgeting.
-      </p>
+      <p><a href="https://www.hubspot.com/marketing-attribution">Read full article →</a></p>
     </div>
   </div>
 </section>
@@ -203,10 +184,11 @@
 <section id="contact" class="container">
   <h2>Let’s Talk</h2>
   <p>📧 rmglobalconsulting365@gmail.com</p>
+  <p>Schedule a free consultation and get insights tailored to your marketing campaigns and revenue streams.</p>
 </section>
 
 <footer>
-  © 2026 Ruth Afotey — Data & Analytics for Marketing Clarity
+  © 2026 Marketing Analytics & Revenue Clarity
 </footer>
 
 </body>
