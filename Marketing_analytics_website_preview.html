@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruth Afotey | Data & Analytics for Marketing Clarity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1E3A8A;
+      --accent: #38BDF8;
+      --text: #111827;
+      --bg: #FFFFFF;
+      --card-bg: #F3F4F6;
+      --border: #E5E7EB;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    header {
+      background: var(--bg);
+      text-align: center;
+      padding: 120px 20px 100px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+
+    header .brand {
+      position: absolute;
+      top: 24px;
+      left: 32px;
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+    }
+
+    header h1 {
+      font-size: 2.75rem;
+      margin-bottom: 12px;
+      color: var(--primary);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 760px;
+      margin: auto;
+      color: #374151;
+    }
+
+    .cta {
+      margin-top: 32px;
+      display: inline-block;
+      padding: 14px 34px;
+      background: var(--accent);
+      color: #ffffff;
+      border-radius: 10px;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(56,189,248,0.25);
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 24px;
+      color: var(--primary);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 32px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      border-top: 1px solid var(--border);
+      color: #6B7280;
+      background: #FAFAFA;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="position:absolute;top:20px;left:30px;font-weight:700;font-size:1.1rem;">
+    Ruth Afotey
+  </div>
+  <h1>Marketing & Revenue Clarity</h1>
+  <p>
+    I help business owners understand which ads drive revenue,
+    where money leaks, and what to scale next — without dashboard chaos.
+  </p>
+  <a class="cta" href="#contact">Get Marketing Clarity</a>
+</header>
+
+<section class="container">
+  <h2>About Me</h2>
+  <p>
+    I’m a data and analytics consultant focused on turning complex marketing data into
+    clear, executive-level insights. I work with founders and leadership teams who are
+    tired of guessing which Facebook Ads, Google Ads, or campaigns are actually profitable.
+  </p>
+</section>
+
+<section class="container">
+  <h2>Executive Command Center (ECC)</h2>
+  <div class="card">
+    <p>
+      The Executive Command Center is a unified analytics system designed for leaders who
+      need clarity, not clutter.
+    </p>
+    <ul>
+      <li>Unified view of marketing, revenue, and attribution</li>
+      <li>Multi-channel tracking (Facebook Ads, Google Ads, web analytics)</li>
+      <li>Funnel leak detection and performance diagnostics</li>
+      <li>Executive dashboards that answer “What should we do next?”</li>
+    </ul>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Selected Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Customer Churn Analysis — Tableau</h3>
+      <p>
+        Interactive Tableau dashboard analyzing customer churn drivers and retention risks,
+        designed to support data-driven decision-making.
+      </p>
+      <a href="https://public.tableau.com/app/profile/ruth.afotey/viz/D210PerformanceAssessment-Ruth/Story2" target="_blank">View Tableau Dashboard →</a>
+    </div>
+    <div class="card">
+      <h3>Data Pipelines with Airflow</h3>
+      <p>
+        Automated data pipelines built with Apache Airflow to ensure reliable,
+        scalable analytics workflows for reporting and insights.
+      </p>
+      <a href="https://github.com/rmomo-100/demo-website" target="_blank">View on GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Insights & Resources</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Why Most Businesses Misread Their Ad Performance</h3>
+      <p>
+        Learn why clicks and impressions don’t equal revenue — and how to measure
+        what actually matters for growth.
+      </p>
+    </div>
+    <div class="card">
+      <h3>How to Find Revenue Leaks in Your Marketing Funnel</h3>
+      <p>
+        A practical guide to identifying drop-offs, wasted spend, and optimization
+        opportunities across your funnel.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Attribution Models Explained for Business Owners</h3>
+      <p>
+        A clear, non-technical breakdown of attribution models and how they impact
+        marketing decisions and budgeting.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Let’s Talk</h2>
+  <p>📧 rmglobalconsulting365@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 Ruth Afotey — Data & Analytics for Marketing Clarity
+</footer>
+
+</body>
+</html>
